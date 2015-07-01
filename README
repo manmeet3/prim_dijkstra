@@ -1,0 +1,24 @@
+Manmeet Singh
+
+Usage: graph04 -dDpP startingVertex input.data
+
+The options d/D run dijkstra's SSST 
+
+Options p/P run Prim's MST
+
+Output: Vertex, Status, Priority, Parent printed in a table for each vertex.
+
+The status is printed in ASCII for f (fringe), u (unseen), t (intree)
+which are 102, 116, 117 respectively.
+
+Input files are of format:
+
+n (# of vertices)
+1 edge(to) weight
+2
+.
+.
+.
+n
+
+Some sample test files present - represent various cases.
